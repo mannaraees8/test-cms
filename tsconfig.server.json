@@ -6,5 +6,8 @@
     "outDir": "dist"
   },
   "extends": "./tsconfig.json",
-  "include": ["src/server.ts", "src/payload/payload.config.ts"]
+  "include": [
+    "src/server.ts",
+    "src/payload.config.ts"
+  ]
 }
